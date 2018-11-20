@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-env": "^1.6.1",
+    "convert-csv-to-json": "0.0.13"
+  },
+  "scripts": {
+    "start": "babel-node --presets env test.js"
+  },
+  "devDependencies": {
+    "rxjs": "^5.5.8"
+  }
+}
